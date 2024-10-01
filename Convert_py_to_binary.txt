@@ -1,0 +1,14 @@
+
+
+
+venv
+pip install pyinstaller
+
+
+pyinstaller --onefile run.py
+
+cd dist/
+mv run search
+
+sudo cp search /usr/local/bin/
+sudo chmod +x /usr/local/bin/search
